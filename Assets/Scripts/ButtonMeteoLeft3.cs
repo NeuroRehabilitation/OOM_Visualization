@@ -5,17 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class ButtonMeteoLeft3 : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	public Material freeMountain;
+	public Texture color;
 
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey("e"))
 		{
-			Debug.Log("Tecla e detected");
-			SceneManager.LoadScene("test");
+			freeMountain.mainTexture = color;
+			//Debug.Log("Tecla e detected");
+			//SceneManager.LoadScene("test");
 		}
 	}
 
