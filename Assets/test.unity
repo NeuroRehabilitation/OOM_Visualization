@@ -743,7 +743,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Satellite (q)
+  m_Text: Satellite
 --- !u!222 &328411473
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1121,7 +1121,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: teste (e)
+  m_Text: Meteo
 --- !u!222 &597342393
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3556,7 +3556,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Temperature (w)
+  m_Text: Temperature
 --- !u!222 &2024655921
 CanvasRenderer:
   m_ObjectHideFlags: 0

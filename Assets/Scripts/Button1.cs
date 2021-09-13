@@ -12,13 +12,11 @@ public class Button1 : MonoBehaviour
 		if (Input.GetKey("q"))
 		{
 			freeMountain.mainTexture = satellite;
-			ButtonLeft3.bt3onflag = false;
 		}
 	}
 
     void OnTriggerEnter(Collider other)
     {
         freeMountain.mainTexture = satellite;
-		ButtonLeft3.bt3onflag = false;
 	}
 }

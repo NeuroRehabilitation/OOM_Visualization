@@ -12,13 +12,11 @@ public class Button2 : MonoBehaviour
 		if (Input.GetKey("w"))
 		{
 			freeMountain.mainTexture = color;
-			ButtonLeft3.bt3onflag = false;
 		}
 	}
 		
     void OnTriggerEnter(Collider other)
     {
         freeMountain.mainTexture = color;
-		ButtonLeft3.bt3onflag = false;
 	}
 }
