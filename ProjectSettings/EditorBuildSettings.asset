@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/test.unity
     guid: 4480aa43ffab10f4699ba686f455297b
-  - enabled: 1
+  - enabled: 0
     path: Assets/MeteoScene.unity
     guid: d228eed63f5795e459743dd3e0f3e7b3
