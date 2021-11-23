@@ -17,10 +17,10 @@ public class SliderScript : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.transform.position.y < 2.015f && other.gameObject.transform.position.y > 0.884f)
+        if (other.gameObject.transform.position.y < 1.825f && other.gameObject.transform.position.y > 0.906f)
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, other.gameObject.transform.position.y, gameObject.transform.position.z);
-            slider.value = 1-(gameObject.transform.position.y-.884f) /(2.015f - .884f);
+            //slider.value = 1-(gameObject.transform.position.y- 0.906f) /(1.825f - 0.906f);
             mountain.transform.position = new Vector3(mountain.transform.position.x, gameObject.gameObject.transform.position.y, mountain.transform.position.z);
         }
     }
