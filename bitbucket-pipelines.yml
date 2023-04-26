@@ -7,5 +7,5 @@ pipelines:
           enabled: false
         script:
           - git clone --bare git@bitbucket.org:neurorehablab/geospatial_dataviz.git
-          - cd neurorehablab/geospatial_dataviz.git
+          - cd geospatial_dataviz.git
           - git push --mirror git@github.com:NeuroRehabilitation/OOM_Visualization.git
